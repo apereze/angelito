@@ -22,8 +22,9 @@ button {
 
 #noButton {
     position: relative;
-    animation: moveButton 2s infinite alternate;
+    left: 0;
 }
+
 
 @keyframes moveButton {
     0% {
