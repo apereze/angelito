@@ -16,6 +16,6 @@ function moveButton() {
     button.style.left = `${randomX}px`;
     button.style.top = `${randomY}px`;
 
-    // Deshabilita el botón para evitar clics adicionales
-    button.disabled = true;
+    // Reactiva el botón para permitir clics posteriores
+    button.disabled = false;
 }
