@@ -16,6 +16,9 @@ function moveButton() {
     button.style.left = `${randomX}px`;
     button.style.top = `${randomY}px`;
 
-    // Reactiva el botón para permitir clics posteriores
-    button.disabled = false;
+    // Reactiva el botón después de un breve tiempo para permitir clics posteriores
+    button.disabled = true;
+    setTimeout(() => {
+        button.disabled = false;
+    }, 500);  // Ajusta el tiempo según sea necesario
 }
