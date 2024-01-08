@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#noButton {
+    position: relative;
+    animation: moveButton 2s infinite alternate;
+}
+
+@keyframes moveButton {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 10px;
+    }
+}
